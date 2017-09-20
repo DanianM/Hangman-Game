@@ -1,0 +1,61 @@
+html, body {
+	font-family: 'Faster One', cursive;
+	background: url("../images/back.png") no-repeat fixed;
+	position: absolute;
+	background-size: cover;
+	font-size: 127%;
+	z-index: -1;
+	
+}
+
+content {
+	position: relative;
+}
+
+
+.wins {
+	z-index: 100;
+	top: -465px;
+	right: -2225px;
+	position: relative;
+	color: #00FF00;
+
+}
+
+h1#win {
+	color: #00FF00;
+	font-size: 130%;
+	z-index: 100;
+	top: -465px;
+	right: -2280px;
+	position: relative;
+}
+
+#guessLeft, #wordState, #letterGuessed {
+	text-align: left;
+	font-size: 125%;
+	padding-top: 55px;
+	color: #ff5500;
+
+}
+
+#header{
+	font-size: 165%;
+	font-style: underline;
+	color: #603120;
+}
+
+footer {
+	position: fixed;
+	font-size: 66%;
+	border-style: dashed;
+	width: 200px;
+	bottom: 0px;
+	color: #303958;
+}
+
+#letterGuessed li{
+	color: #50320;
+	font-size: 150%;
+
+}
